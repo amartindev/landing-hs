@@ -12,7 +12,8 @@
         event.stopPropagation();
       } else {
         // El formulario es válido, redirigir a gracias.html
-        window.location.href = 'https://google.com';
+        window.location.href = 'gracias.html';
+        event.returnValue = false;
 
       }
 

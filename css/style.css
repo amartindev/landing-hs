@@ -32,6 +32,12 @@ body h1 {
   font-weight: bold;
   color: #00348C;
 }
+body h2 {
+  font-family: "ITC Avant Garde Gothic Std", Arial;
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #00348C;
+}
 body h3 {
   font-family: "ITC Avant Garde Gothic Std", Arial;
   font-size: 1.1rem;
@@ -50,6 +56,9 @@ body h3 {
 }
 .container-hojas img {
   height: 132vh;
+}
+.container-hojas .hojas-gracias img {
+  height: 100%;
 }
 
 .container-contenido {
@@ -74,6 +83,13 @@ body h3 {
   width: 100%;
   height: auto;
   margin: 1rem 2.7rem 1rem 2.7rem;
+}
+.container-contenido .container-subtitulo .mensaje-confirmacion {
+  font-family: "ITC Avant Garde Gothic Std", Arial;
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-style: normal;
+  color: #00348C;
 }
 .container-contenido .container-imagen-greeicy-01 {
   text-align: center;
@@ -133,6 +149,125 @@ body h3 {
   font-size: 0.8rem;
 }
 .container-contenido .container-formulario .formulario .invalid-feedback {
+  font-size: 0.6rem;
+}
+.container-contenido .columna01-gracias {
+  padding-top: 5.8rem;
+  width: 50%;
+}
+.container-contenido .columna01-gracias .container-imagen-greeicy-03 img {
+  height: auto;
+  width: 100%;
+  z-index: 1;
+}
+.container-contenido .columna02 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-right: 5rem;
+  padding-left: 2rem;
+}
+.container-contenido .columna02 .container-texto-greeicy img {
+  width: 20rem;
+}
+.container-contenido .columna02 .container-firma-greeicy {
+  text-align: right;
+}
+.container-contenido .columna02 .container-firma-greeicy img {
+  height: auto;
+  width: 6rem;
+}
+.container-contenido .columna02 h2 {
+  padding-top: 2rem;
+  font-family: "ITC Avant Garde Gothic Std", Arial;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00348C;
+}
+.container-contenido .columna02 h3 {
+  font-family: "ITC Avant Garde Gothic Std", Arial;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-style: normal;
+  color: #646464;
+  padding-bottom: 2rem;
+}
+.container-contenido .columna02 .redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: #00348C;
+  padding-bottom: 3rem;
+}
+.container-contenido .columna02 .redes svg {
+  width: 2.1rem;
+  height: auto;
+  background-color: #ffffff;
+  margin: 0 2rem 0 0;
+  padding: 0.5rem;
+  border-radius: 100%;
+  z-index: 1;
+}
+.container-contenido .columna02 .redes svg path {
+  z-index: 2;
+}
+
+.container-footer-gracias {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.5rem;
+  padding-bottom: 0.6rem;
+  background-color: #00348C;
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  height: 9rem;
+  margin-top: 0;
+}
+.container-footer-gracias .boton-home {
+  align-self: center;
+  justify-self: center;
+  margin: 1rem;
+  padding: 0 3rem;
+}
+.container-footer-gracias .boton-home button {
+  border: 1px solid #FFFFFF;
+  border-radius: 29px;
+  padding: 0.7rem 1.1rem;
+  text-transform: uppercase;
+  font-family: "ITC Avant Garde Gothic Std", Arial;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 0.65rem;
+}
+.container-footer-gracias .boton-home button:hover {
+  color: #00348C;
+}
+.container-footer-gracias .footer-redes {
+  text-align: left;
+}
+.container-footer-gracias .footer-redes h6 {
+  font-family: "ITC Avant Garde Gothic Std", Arial;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 0.65rem;
+  color: #ffffff;
+  padding-top: 1rem;
+}
+.container-footer-gracias .footer-redes .logos-redes {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container-footer-gracias .footer-redes .logos-redes svg {
+  margin: 0 0.4rem 0 0;
+}
+.container-footer-gracias span {
+  color: #ffffff;
+  font-family: "ITC Avant Garde Gothic Std", Arial;
+  font-weight: lighter;
   font-size: 0.6rem;
 }
 

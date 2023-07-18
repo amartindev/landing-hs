@@ -11,27 +11,20 @@
 
   <!--Animate CSS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-  <!--LightGalery-->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/css/lightgallery.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/js/lightgallery.min.js"></script>
-    <script src="/js/hero.js"></script>
-  <!--Lightbox-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js" integrity="sha512-Ixzuzfxv1EqafeQlTCufWfaC6ful6WFqIz4G+dWvK0beHw0NVJwvCKSgafpy5gwNqKmgUfIBraVwkKI+Cz0SEQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!--Titulo-->
     <title>Gracias Digitas</title>
   <!--CSS-->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/lightbox.css">
+
 </head>
 <body>
     <section class="intro animate__animated animate__fadeIn">
-        <div class="container-hojas">
+        <div class="container-hojas hojas-gracias">
             <img class="hojas1 animate__animated animate__fadeInLeftBig" src="/img/Desktop/Enmascarar grupo 1.png" alt="fondo hojas azules">
             <img class="hojas2 animate__animated animate__fadeInRightBig" src="/img/Desktop/Enmascarar grupo 2.png" alt="fondo hojas azules">
         </div>
         <div class="container-contenido">
-            <div class="columna01 animate__animated animate__fadeInUpBig">
+            <div class="columna01 columna01-gracias animate__animated animate__fadeInUpBig">
 
                 <div class="container-titulo">
                     <h1>
@@ -39,11 +32,15 @@
                     </h1>
                 </div>
                 <div class="container-subtitulo">
-                    <h4>
-                        Recibirás un correo de confirmación
+                    <h4 class="mensaje-confirmacion">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-check" viewBox="0 0 16 16">
+                            <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"/>
+                            <path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686Z"/>
+                          </svg>
+                          Recibirás un correo de confirmación
                     </h4>
                 </div>
-                <div class="container-imagen-greeicy-01">
+                <div class="container-imagen-greeicy-03">
                     <img src="img/Desktop/Greeicy-Rendon-3-desktop.png" alt="imagen Greeicy Rendon">
                 </div>
             </div>
@@ -76,7 +73,8 @@
                 </div>
             </div>
         </div>
-        <div class="container-footer">
+        <div class="container-footer-gracias">
+            <span>© 2021 Procter & Gamble</span>
             <div class="boton-home">
                 <button type="button" class="btn btn-outline-light">Ir a head and shoulders</button>
             </div>
@@ -93,13 +91,8 @@
                         <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
                     </svg>
                 </div>
-                <span>Legales - copyright</span>
             </div>
         </div>
     </section>
-
-    <script src="/js/countdown.js"></script>
-    <script src="/js/formulario.js"></script>
-    <script src="/js/lightbox.js"></script>
 </body>
 </html>
