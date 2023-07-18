@@ -1,0 +1,212 @@
+@font-face {
+  font-family: "ITC Avant Garde Gothic Std";
+  src: url("/font/ITC Avant Garde Gothic Std Bold.otf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ITC Avant Garde Gothic Std";
+  src: url("/font/ITC Avant Garde Gothic Std Medium.otf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ITC Avant Garde Gothic Std";
+  src: url("/font/ITC Avant Garde Gothic Std Book.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ITC Avant Garde Gothic Std";
+  src: url("/font/ITC Avant Garde Gothic Std Extra Light.otf") format("truetype");
+  font-weight: lighter;
+}
+body {
+  font-family: "ITC Avant Garde Gothic Std", Arial;
+  background: rgb(231, 235, 237);
+  background: linear-gradient(164deg, rgb(231, 235, 237) 7%, rgb(127, 192, 211) 87%);
+}
+body h1 {
+  font-family: "ITC Avant Garde Gothic Std", Arial;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #00348C;
+}
+body h3 {
+  font-family: "ITC Avant Garde Gothic Std", Arial;
+  font-size: 1.1rem;
+  font-weight: normal;
+  color: #646464;
+}
+
+.container-hojas {
+  position: absolute;
+  top: 3.3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: -1;
+  width: 100%;
+}
+.container-hojas img {
+  height: 132vh;
+}
+
+.container-contenido {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 15rem;
+}
+.container-contenido .container-logo {
+  margin-left: 2rem;
+}
+.container-contenido .container-logo img {
+  width: auto;
+  height: 5rem;
+}
+.container-contenido .container-titulo {
+  width: 100%;
+  height: auto;
+  margin: 1rem 2.7rem 1rem 2.7rem;
+}
+.container-contenido .container-subtitulo {
+  width: 100%;
+  height: auto;
+  margin: 1rem 2.7rem 1rem 2.7rem;
+}
+.container-contenido .container-imagen-greeicy-01 {
+  text-align: center;
+  align-self: flex-end;
+}
+.container-contenido .container-imagen-greeicy-01 img {
+  height: 23rem;
+  width: auto;
+}
+.container-contenido .columna01 {
+  width: 100%;
+}
+.container-contenido .container-formulario {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 100%;
+  padding-bottom: 3.5rem;
+}
+.container-contenido .container-formulario .formulario {
+  background: rgba(255, 255, 255, 0.363);
+  backdrop-filter: blur(4.1px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(10, 84, 228, 0.5);
+  border-radius: 20px;
+  opacity: 1;
+  padding: 1rem;
+  width: 19rem;
+  font-family: "ITC Avant Garde Gothic Std", Arial;
+}
+.container-contenido .container-formulario .formulario .campo {
+  margin-top: 0.35rem;
+}
+.container-contenido .container-formulario .formulario .form-label {
+  color: #00348C;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+.container-contenido .container-formulario .formulario .form-control, .container-contenido .container-formulario .formulario .form-select, .container-contenido .container-formulario .formulario .form-control::placeholder {
+  color: #9DA0A2;
+  font-weight: normal;
+  font-size: 0.6rem;
+  border-radius: 0%;
+  height: 2.1rem;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+}
+.container-contenido .container-formulario .formulario .form-check-label {
+  color: #00348C;
+  font-size: 0.6rem;
+}
+.container-contenido .container-formulario .formulario .boton-formulario {
+  background: transparent linear-gradient(90deg, var(--unnamed-color-0a54e4) 0%, #052A72 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(90deg, #0A54E4 0%, #052A72 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  border-radius: 29px;
+  font-size: 0.8rem;
+}
+.container-contenido .container-formulario .formulario .invalid-feedback {
+  font-size: 0.6rem;
+}
+
+.container-banner {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 15rem;
+  border-radius: 20px;
+}
+.container-banner .cuenta-regresiva {
+  background: #00348C 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  border-radius: 57px;
+  color: #ffffff;
+  font-family: "ITC Avant Garde Gothic Std", Arial;
+  padding: 0.7rem 4.5rem;
+  margin-top: -2.7rem;
+}
+.container-banner .cuenta-regresiva h4 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.container-banner .cuenta-regresiva .countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+  font-size: 1.3rem;
+}
+.container-banner .cuenta-regresiva .timer {
+  margin: 0 10px;
+}
+.container-banner .texto-banner {
+  padding: 2rem 15rem;
+  color: #646464;
+  font-family: "ITC Avant Garde Gothic Std", Arial;
+  font-size: 0.8rem;
+  text-align: center;
+}
+.container-banner .iconos {
+  color: #00348C;
+  font-weight: 500;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.container-banner .iconos .calendario, .container-banner .iconos .map, .container-banner .iconos .reloj {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1rem;
+}
+.container-banner .iconos .calendario svg, .container-banner .iconos .map svg, .container-banner .iconos .reloj svg {
+  height: 2rem;
+  width: auto;
+}
+
+.container-final {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 15rem;
+  width: 100%;
+}
+.container-final .container-galeria img {
+  width: 3rem;
+  height: auto;
+}
