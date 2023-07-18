@@ -26,6 +26,9 @@ body {
   background: rgb(231, 235, 237);
   background: linear-gradient(164deg, rgb(231, 235, 237) 7%, rgb(127, 192, 211) 87%);
 }
+body .animate__animated {
+  animation-duration: 3s;
+}
 body h1 {
   font-family: "ITC Avant Garde Gothic Std", Arial;
   font-size: 2.5rem;
@@ -147,6 +150,11 @@ body h3 {
   align-items: end;
   width: 100%;
   padding-bottom: 3.5rem;
+}
+@media (max-width: 767px) {
+  .container-contenido .container-formulario {
+    padding-bottom: 0;
+  }
 }
 .container-contenido .container-formulario .formulario {
   background: rgba(255, 255, 255, 0.363);
@@ -345,6 +353,7 @@ body h3 {
 @media (max-width: 767px) {
   .cuenta-regresiva {
     border-radius: 0;
+    padding: 0.5rem;
   }
 }
 .cuenta-regresiva h4 {
@@ -416,12 +425,6 @@ body h3 {
   justify-content: center;
   align-items: self-start;
   margin: 0 15rem;
-}
-@media (max-width: 767px) {
-  .container-final {
-    display: block;
-    padding: 0.5rem;
-  }
 }
 .container-final .col-izq-final {
   width: 50%;
