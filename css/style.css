@@ -331,7 +331,8 @@ body h3 {
     margin: 0;
   }
 }
-.container-banner .cuenta-regresiva {
+
+.cuenta-regresiva {
   background: #00348C 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
   border-radius: 57px;
@@ -342,21 +343,21 @@ body h3 {
   z-index: 2;
 }
 @media (max-width: 767px) {
-  .container-banner .cuenta-regresiva {
+  .cuenta-regresiva {
     border-radius: 0;
   }
 }
-.container-banner .cuenta-regresiva h4 {
+.cuenta-regresiva h4 {
   font-weight: bold;
   font-size: 1.2rem;
   text-align: center;
 }
 @media (max-width: 767px) {
-  .container-banner .cuenta-regresiva h4 {
+  .cuenta-regresiva h4 {
     font-size: 0.9rem;
   }
 }
-.container-banner .cuenta-regresiva .countdown {
+.cuenta-regresiva .countdown {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -364,14 +365,15 @@ body h3 {
   font-size: 1.3rem;
 }
 @media (max-width: 767px) {
-  .container-banner .cuenta-regresiva .countdown {
+  .cuenta-regresiva .countdown {
     font-size: 1rem;
   }
 }
-.container-banner .cuenta-regresiva .timer {
+.cuenta-regresiva .timer {
   margin: 0 10px;
 }
-.container-banner .texto-banner {
+
+.texto-banner {
   padding: 2rem 15rem;
   color: #646464;
   font-family: "ITC Avant Garde Gothic Std", Arial;
@@ -379,12 +381,13 @@ body h3 {
   text-align: center;
 }
 @media (max-width: 767px) {
-  .container-banner .texto-banner {
+  .texto-banner {
     padding: 1rem 0.5rem;
     font-size: 1rem;
   }
 }
-.container-banner .iconos {
+
+.iconos {
   color: #00348C;
   font-weight: 500;
   font-size: 0.8rem;
@@ -395,14 +398,14 @@ body h3 {
   text-align: center;
   padding-bottom: 2rem;
 }
-.container-banner .iconos .calendario, .container-banner .iconos .map, .container-banner .iconos .reloj {
+.iconos .calendario, .iconos .map, .iconos .reloj {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   margin: 0 1rem;
 }
-.container-banner .iconos .calendario svg, .container-banner .iconos .map svg, .container-banner .iconos .reloj svg {
+.iconos .calendario svg, .iconos .map svg, .iconos .reloj svg {
   height: 2rem;
   width: auto;
 }
@@ -413,6 +416,12 @@ body h3 {
   justify-content: center;
   align-items: self-start;
   margin: 0 15rem;
+}
+@media (max-width: 767px) {
+  .container-final {
+    display: block;
+    padding: 0.5rem;
+  }
 }
 .container-final .col-izq-final {
   width: 50%;

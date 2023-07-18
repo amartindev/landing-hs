@@ -21,5 +21,9 @@ const countdownInterval = setInterval(function () {
     document.getElementById("hours").innerText = hours.toString().padStart(2, "0");
     document.getElementById("minutes").innerText = minutes.toString().padStart(2, "0");
     document.getElementById("seconds").innerText = seconds.toString().padStart(2, "0");
+    document.getElementById("days2").innerText = days.toString().padStart(2, "0");
+    document.getElementById("hours2").innerText = hours.toString().padStart(2, "0");
+    document.getElementById("minutes2").innerText = minutes.toString().padStart(2, "0");
+    document.getElementById("seconds2").innerText = seconds.toString().padStart(2, "0");
   }
 }, 1000);
