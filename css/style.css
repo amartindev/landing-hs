@@ -45,6 +45,18 @@ body h3 {
   color: #646464;
 }
 
+.mobil {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .mobil {
+    display: block;
+  }
+  .desk {
+    display: none;
+  }
+}
 .container-hojas {
   position: absolute;
   top: 3.3rem;
@@ -60,12 +72,23 @@ body h3 {
 .container-hojas .hojas-gracias img {
   height: 100%;
 }
+@media (max-width: 767px) {
+  .container-hojas {
+    display: none;
+  }
+}
 
 .container-contenido {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 0 15rem;
+}
+@media (max-width: 767px) {
+  .container-contenido {
+    padding: 0.5rem;
+    flex-direction: column;
+  }
 }
 .container-contenido .container-logo {
   margin-left: 2rem;
@@ -79,10 +102,20 @@ body h3 {
   height: auto;
   margin: 1rem 2.7rem 1rem 2.7rem;
 }
+@media (max-width: 767px) {
+  .container-contenido .container-titulo {
+    margin: 0;
+  }
+}
 .container-contenido .container-subtitulo {
   width: 100%;
   height: auto;
   margin: 1rem 2.7rem 1rem 2.7rem;
+}
+@media (max-width: 767px) {
+  .container-contenido .container-subtitulo {
+    margin: 0;
+  }
 }
 .container-contenido .container-subtitulo .mensaje-confirmacion {
   font-family: "ITC Avant Garde Gothic Std", Arial;
@@ -94,6 +127,11 @@ body h3 {
 .container-contenido .container-imagen-greeicy-01 {
   text-align: center;
   align-self: flex-end;
+}
+@media (max-width: 767px) {
+  .container-contenido .container-imagen-greeicy-01 .desk {
+    display: none;
+  }
 }
 .container-contenido .container-imagen-greeicy-01 img {
   height: 23rem;
@@ -120,6 +158,13 @@ body h3 {
   padding: 1rem;
   width: 19rem;
   font-family: "ITC Avant Garde Gothic Std", Arial;
+}
+@media (max-width: 767px) {
+  .container-contenido .container-formulario .formulario {
+    margin: 0;
+    border-radius: 0;
+    width: 100%;
+  }
 }
 .container-contenido .container-formulario .formulario .campo {
   margin-top: 0.35rem;
@@ -280,6 +325,12 @@ body h3 {
   margin: 0 15rem;
   border-radius: 20px;
 }
+@media (max-width: 767px) {
+  .container-banner {
+    display: block;
+    margin: 0;
+  }
+}
 .container-banner .cuenta-regresiva {
   background: #00348C 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
@@ -290,10 +341,20 @@ body h3 {
   margin-top: -2.7rem;
   z-index: 2;
 }
+@media (max-width: 767px) {
+  .container-banner .cuenta-regresiva {
+    border-radius: 0;
+  }
+}
 .container-banner .cuenta-regresiva h4 {
   font-weight: bold;
   font-size: 1.2rem;
   text-align: center;
+}
+@media (max-width: 767px) {
+  .container-banner .cuenta-regresiva h4 {
+    font-size: 0.9rem;
+  }
 }
 .container-banner .cuenta-regresiva .countdown {
   display: flex;
@@ -301,6 +362,11 @@ body h3 {
   align-items: center;
   font-weight: lighter;
   font-size: 1.3rem;
+}
+@media (max-width: 767px) {
+  .container-banner .cuenta-regresiva .countdown {
+    font-size: 1rem;
+  }
 }
 .container-banner .cuenta-regresiva .timer {
   margin: 0 10px;
@@ -311,6 +377,12 @@ body h3 {
   font-family: "ITC Avant Garde Gothic Std", Arial;
   font-size: 0.8rem;
   text-align: center;
+}
+@media (max-width: 767px) {
+  .container-banner .texto-banner {
+    padding: 1rem 0.5rem;
+    font-size: 1rem;
+  }
 }
 .container-banner .iconos {
   color: #00348C;
