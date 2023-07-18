@@ -82,6 +82,7 @@ body h3 {
 .container-contenido .container-imagen-greeicy-01 img {
   height: 23rem;
   width: auto;
+  z-index: 1;
 }
 .container-contenido .columna01 {
   width: 100%;
@@ -152,6 +153,7 @@ body h3 {
   font-family: "ITC Avant Garde Gothic Std", Arial;
   padding: 0.7rem 4.5rem;
   margin-top: -2.7rem;
+  z-index: 2;
 }
 .container-banner .cuenta-regresiva h4 {
   font-weight: bold;
@@ -235,6 +237,10 @@ body h3 {
   margin: 0 2rem 0 0;
   padding: 0.5rem;
   border-radius: 100%;
+  z-index: 1;
+}
+.container-final .col-izq-final .container-redes .redes svg path {
+  z-index: 2;
 }
 .container-final .col-izq-final .container-galeria {
   width: 100%;
