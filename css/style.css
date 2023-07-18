@@ -201,12 +201,44 @@ body h3 {
 .container-final {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin: 0 15rem;
-  width: 100%;
 }
-.container-final .container-galeria img {
-  width: 3rem;
+.container-final .col-izq-final {
+  width: 50%;
+}
+.container-final .col-izq-final .container-redes h5 {
+  text-align: left;
+  font-family: "ITC Avant Garde Gothic Std", Arial;
+  color: #00348C;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+.container-final .col-izq-final .container-redes .logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.container-final .col-izq-final .container-redes .logos svg {
+  color: #ffffff;
+}
+.container-final .col-izq-final .container-galeria {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container-final .col-izq-final .container-galeria img {
+  width: 8rem;
+  height: auto;
+}
+.container-final .container-foto-greeicy-02 {
+  width: 50%;
+}
+.container-final .container-foto-greeicy-02 img {
+  float: left;
+  overflow: hidden;
+  width: 43rem;
   height: auto;
 }
