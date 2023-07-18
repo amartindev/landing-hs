@@ -27,7 +27,7 @@ body {
   background: linear-gradient(164deg, rgb(231, 235, 237) 7%, rgb(127, 192, 211) 87%);
 }
 body .animate__animated {
-  animation-duration: 3s;
+  animation-duration: 2.5s;
 }
 body h1 {
   font-family: "ITC Avant Garde Gothic Std", Arial;
@@ -425,6 +425,11 @@ body h3 {
   justify-content: center;
   align-items: self-start;
   margin: 0 15rem;
+}
+@media (max-width: 767px) {
+  .container-final {
+    display: none;
+  }
 }
 .container-final .col-izq-final {
   width: 50%;
