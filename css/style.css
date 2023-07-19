@@ -89,7 +89,7 @@ body h3 {
 }
 @media (max-width: 767px) {
   .container-contenido {
-    padding: 0.5rem;
+    padding: 0;
     flex-direction: column;
   }
 }
@@ -132,6 +132,9 @@ body h3 {
   align-self: flex-end;
 }
 @media (max-width: 767px) {
+  .container-contenido .container-imagen-greeicy-01 {
+    align-self: center;
+  }
   .container-contenido .container-imagen-greeicy-01 .desk {
     display: none;
   }
@@ -140,6 +143,12 @@ body h3 {
   height: 23rem;
   width: auto;
   z-index: 1;
+}
+@media (max-width: 767px) {
+  .container-contenido .container-imagen-greeicy-01 img {
+    width: 100%;
+    height: auto;
+  }
 }
 .container-contenido .columna01 {
   width: 100%;
@@ -183,9 +192,10 @@ body h3 {
   font-size: 0.8rem;
 }
 .container-contenido .container-formulario .formulario .form-control, .container-contenido .container-formulario .formulario .form-select, .container-contenido .container-formulario .formulario .form-control::placeholder {
-  color: #9DA0A2;
+  color: #727374;
   font-weight: normal;
   font-size: 0.6rem;
+  font-weight: bold;
   border-radius: 0%;
   height: 2.1rem;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
@@ -208,6 +218,21 @@ body h3 {
   padding-top: 5.8rem;
   width: 50%;
 }
+@media (max-width: 767px) {
+  .container-contenido .columna01-gracias {
+    padding-top: 0;
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .container-contenido .columna01-gracias .container-imagen-greeicy-03 .mobil {
+    padding: 0;
+    position: absolute;
+    width: 50%;
+    height: auto;
+    z-index: 1;
+  }
+}
 .container-contenido .columna01-gracias .container-imagen-greeicy-03 img {
   height: auto;
   width: 100%;
@@ -220,11 +245,30 @@ body h3 {
   padding-right: 5rem;
   padding-left: 2rem;
 }
+@media (max-width: 767px) {
+  .container-contenido .columna02 {
+    padding: 0 0 5rem 0;
+  }
+}
 .container-contenido .columna02 .container-texto-greeicy img {
   width: 20rem;
 }
+@media (max-width: 767px) {
+  .container-contenido .columna02 .container-texto-greeicy {
+    text-align: right;
+    z-index: 3;
+  }
+  .container-contenido .columna02 .container-texto-greeicy img {
+    width: 60%;
+  }
+}
 .container-contenido .columna02 .container-firma-greeicy {
   text-align: right;
+}
+@media (max-width: 767px) {
+  .container-contenido .columna02 .container-firma-greeicy {
+    z-index: 3;
+  }
 }
 .container-contenido .columna02 .container-firma-greeicy img {
   height: auto;
@@ -576,6 +620,7 @@ body h3 {
     color: #00348C;
   }
   .container-footer-mobil .footer-redes {
+    padding-left: 0.5rem;
     text-align: left;
   }
   .container-footer-mobil .footer-redes h6 {
