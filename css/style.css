@@ -238,6 +238,11 @@ body h3 {
   width: 100%;
   z-index: 1;
 }
+@media (max-width: 767px) {
+  .container-contenido .columna-gracias {
+    padding: 0;
+  }
+}
 .container-contenido .columna02 {
   display: flex;
   flex-direction: column;
@@ -247,7 +252,7 @@ body h3 {
 }
 @media (max-width: 767px) {
   .container-contenido .columna02 {
-    padding: 0 0 5rem 0;
+    padding: 0 0 0 0;
   }
 }
 .container-contenido .columna02 .container-texto-greeicy img {
@@ -301,6 +306,13 @@ body h3 {
   color: #00348C;
   padding-bottom: 3rem;
 }
+@media (max-width: 767px) {
+  .container-contenido .columna02 .redes {
+    padding-top: 1rem;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
 .container-contenido .columna02 .redes svg {
   width: 2.1rem;
   height: auto;
@@ -312,6 +324,12 @@ body h3 {
 }
 .container-contenido .columna02 .redes svg path {
   z-index: 2;
+}
+@media (max-width: 767px) {
+  .container-contenido .columna02 .redes svg {
+    width: 3rem;
+    padding: 0.2rem;
+  }
 }
 
 .container-footer-gracias {
@@ -326,6 +344,11 @@ body h3 {
   width: 100%;
   height: 9rem;
   margin-top: 0;
+}
+@media (max-width: 767px) {
+  .container-footer-gracias {
+    display: none;
+  }
 }
 .container-footer-gracias .boton-home {
   align-self: center;

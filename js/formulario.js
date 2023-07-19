@@ -11,10 +11,17 @@
         event.preventDefault();
         event.stopPropagation();
       } else {
+        // Imprimir los datos del formulario en la consola
+        console.log("Datos del formulario:");
+        const formData = new FormData(form);
+        formData.forEach((value, key) => {
+          console.log(key + ': ' + value);
+        });
+
         // El formulario es válido, redirigir a gracias.html
         window.location.href = 'gracias.html';
         event.returnValue = false;
-
+        
       }
 
       form.classList.add('was-validated');
