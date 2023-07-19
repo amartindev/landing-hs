@@ -281,6 +281,11 @@ body h3 {
   font-weight: bold;
   color: #00348C;
 }
+@media (max-width: 767px) {
+  .container-contenido .columna02 h2 {
+    padding-top: 14rem;
+  }
+}
 .container-contenido .columna02 h3 {
   font-family: "ITC Avant Garde Gothic Std", Arial;
   font-size: 1.2rem;
