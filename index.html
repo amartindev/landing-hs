@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Antonio Martin">
     <meta name="description" content="Landing Prueba tecnica Digitas">
+    <!-- Etiquetas meta para SEO -->
+    <meta name="description" content="Descripción del evento del concierto y shampoo">
+    <meta name="keywords" content="concierto, shampoo, evento, música, cabello, limpieza">
+    <meta name="author" content="Tu nombre o el nombre de tu sitio web">
+    <meta name="robots" content="index, follow">
   <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WH3TVVGQ');</script>
   <!-- End Google Tag Manager -->
@@ -78,7 +83,7 @@
                 <form class="formulario row g-3 needs-validation" novalidate>
                   <div class="col-md-12 campo">
                     <label for="nombreCompleto" class="form-label">Nombre Completo</label>
-                    <input type="text" class="form-control" id="nombreCompleto" placeholder="Nombres y Apellidos" required>
+                    <input type="text" name="nombres" class="form-control" id="nombreCompleto" placeholder="Nombres y Apellidos" required>
                     <div class="valid-feedback">
                       Válido.
                     </div>
@@ -87,7 +92,7 @@
                     </div>
                   </div>
                   <div class="col-md-12 campo">
-                    <label for="fechaNacimiento" class="form-label">Fecha de Nacimiento</label>
+                    <label for="fechaNacimiento" name="fecha" class="form-label">Fecha de Nacimiento</label>
                     <input type="date" class="form-control" id="fechaNacimiento" aria-describedby="fechaNacimientoFeedback" required>
                     <div id="fechaNacimientoFeedback" class="invalid-feedback">
                       Por favor elige una fecha de nacimiento válida.
@@ -95,21 +100,21 @@
                   </div>
                   <div class="col-md-12 campo">
                     <label for="correoElectronico" class="form-label">Correo electrónico</label>
-                    <input type="email" class="form-control" id="correoElectronico" placeholder="Introduce tu correo electrónico" aria-describedby="correoElectronicoFeedback" required>
+                    <input type="email" name="correo" class="form-control" id="correoElectronico" placeholder="Introduce tu correo electrónico" aria-describedby="correoElectronicoFeedback" required>
                     <div id="correoElectronicoFeedback" class="invalid-feedback">
                       Por favor ingresa un correo electrónico válido.
                     </div>
                   </div>
                   <div class="col-md-12 campo">
                     <label for="telefono" class="form-label">Teléfono</label>
-                    <input type="tel" class="form-control" id="telefono" pattern="[0-9]+" placeholder="Número de contacto" aria-describedby="telefonoFeedback" required>
+                    <input type="tel" name="telefono" class="form-control" id="telefono" pattern="[0-9]+" placeholder="Número de contacto" aria-describedby="telefonoFeedback" required>
                     <div id="telefonoFeedback" class="invalid-feedback">
                       Por favor ingresa un número de teléfono válido.
                     </div>
                   </div>
                   <div class="col-md-12 campo">
                     <label for="paisResidencia" class="form-label">País de Residencia</label>
-                    <select class="form-select" id="paisResidencia" aria-describedby="paisResidenciaFeedback" required>
+                    <select class="form-select" name="pais" id="paisResidencia" aria-describedby="paisResidenciaFeedback" required>
                       <option selected>Colombia</option>
                       <option>Venezuela</option>
                       <option>Ecuador</option>
